@@ -2,6 +2,7 @@
 
 ## 1.0.0
 
+- Set the numeric plugin version to `1` so it matches the `1.0.0` semantic version required by SMR.
 - Renamed the mod reference to `X3LightsRedux` for a separate SMR listing.
 - Added a package redirect from `/x3_lights/` to `/X3LightsRedux/` for save migration.
 - Fixed a crash in `FPoolLightComponent::Update` when powering an X3 flood light.
