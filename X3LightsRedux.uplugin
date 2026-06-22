@@ -1,8 +1,8 @@
 {
     "FileVersion": 3,
     "Version": 0,
-    "VersionName": "1.2.1",
-    "SemVersion": "1.2.1",
+    "VersionName": "1.0.0",
+    "SemVersion": "1.0.0",
     "GameVersion": ">=491125",
     "FriendlyName": "X3-Lights Redux",
     "Description": "Cheaper vanilla-derived lights with lower power consumption and four power links, rebuilt for Satisfactory 1.2 under a separately publishable mod reference.",

@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.2.1
+## 1.0.0
 
 - Renamed the mod reference to `X3LightsRedux` for a separate SMR listing.
 - Added a package redirect from `/x3_lights/` to `/X3LightsRedux/` for save migration.

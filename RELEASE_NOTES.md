@@ -1,4 +1,4 @@
-# X3-Lights Redux 1.2.1
+# X3-Lights Redux 1.0.0
 
 X3-Lights Redux brings the original cheaper, lower-power vanilla lights to Satisfactory 1.2 under the unique `X3LightsRedux` mod reference.
 
