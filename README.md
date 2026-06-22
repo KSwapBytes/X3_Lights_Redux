@@ -1,8 +1,8 @@
 # X3-Lights Redux
 
-X3-Lights Redux is a Satisfactory 1.2 / SML 3.12 continuation of the original X3-Lights mod created by [x3008x](https://github.com/Rick86). [Acxd](https://github.com/Acxd25) ported the mod for Satisfactory Update 5, and [KSwapBytes](https://github.com/KSwapBytes) rebuilt it for Satisfactory 1.2.
+X3-Lights Redux is a Satisfactory 1.2 / SML 3.12 continuation of the original X3-Lights mod created by [x3008x](https://github.com/Rick86). [VoxTenebris (Acxd25)](https://github.com/Acxd25) later edited and ported it for Satisfactory Update 5, and [KSwapBytes](https://github.com/KSwapBytes) rebuilt it for Satisfactory 1.2.
 
-The Redux mod reference is `X3LightsRedux`, allowing it to be published as a separate SMR listing.
+This repository is a fork of the original GPL-3.0-licensed [Rick86/X3_Lights](https://github.com/Rick86/X3_Lights) repository. The Redux mod reference is `X3LightsRedux`, allowing it to be published as a separate SMR listing.
 
 ## Save Migration
 
@@ -25,11 +25,13 @@ All buildings unlock from the X3-Lights Redux Tier 2 milestone.
 ## Credits
 
 - Original X3-Lights concept and mod: [x3008x](https://github.com/Rick86)
-- Satisfactory Update 5 port: [Acxd](https://github.com/Acxd25)
+- Later editor and Satisfactory Update 5 porter: [VoxTenebris (Acxd25)](https://github.com/Acxd25)
 - Satisfactory 1.2 Redux rebuild and maintenance: [KSwapBytes](https://github.com/KSwapBytes)
 - Satisfactory and its original assets: Coffee Stain Studios
 
 See [CREDITS.md](CREDITS.md) for full attribution.
+
+Ready-to-paste repository listing text is available in [SMR_LISTING.md](SMR_LISTING.md).
 
 ## License
 

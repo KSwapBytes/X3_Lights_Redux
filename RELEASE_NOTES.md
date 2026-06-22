@@ -13,6 +13,6 @@ Requires SML 3.12.0 or newer and game build 491125 or newer.
 ## Credits and License
 
 - Original mod and concept: x3008x
-- Satisfactory Update 5 port: Acxd
+- Later editor and Satisfactory Update 5 porter: VoxTenebris (Acxd25)
 - Satisfactory 1.2 Redux rebuild and maintenance: KSwapBytes
 - License: GNU General Public License v3.0

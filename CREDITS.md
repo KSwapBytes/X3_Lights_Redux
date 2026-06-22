@@ -7,9 +7,9 @@ X3-Lights / Cheap Lights was created by [x3008x](https://github.com/Rick86).
 - Original SMR listing: [X3-Lights / Cheap Lights](https://ficsit.app/mod/5WvQy4BLqNTu7n)
 - Original source repository: [Rick86/X3_Lights](https://github.com/Rick86/X3_Lights)
 
-## Update 5 Port
+## Later Editing and Update 5 Port
 
-[Acxd](https://github.com/Acxd25) ported the mod for Satisfactory Update 5.
+[VoxTenebris (GitHub: Acxd25)](https://github.com/Acxd25) later edited the mod and ported it for Satisfactory Update 5. The original plugin metadata credits both x3008x and VoxTenebris.
 
 ## Redux
 
