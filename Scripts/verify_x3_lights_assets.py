@@ -1,7 +1,7 @@
 import unreal
 
 
-MOD_ROOT = "/x3_lights"
+MOD_ROOT = "/X3LightsRedux"
 
 EXPECTED = [
     ("StreetLight", "BP_X3Lights_StreetLight", "Desc_X3Lights_StreetLight", "Recipe_X3Lights_StreetLight", 0.2, False, [("Desc_IronPlate_C", 2), ("Desc_IronRod_C", 12), ("Desc_Wire_C", 2), ("Desc_Cable_C", 2)]),
@@ -106,13 +106,21 @@ def main():
     actual_recipe_paths = [value.get_path_name() for value in unlocks[0].get_editor_property("mRecipes")]
     assert actual_recipe_paths == expected_recipe_paths, actual_recipe_paths
 
-    root_cls = bp_class(MOD_ROOT + "/RootGameWorld_x3_lights")
+    root_cls = bp_class(MOD_ROOT + "/RootGameWorld_X3LightsRedux")
     root = unreal.get_default_object(root_cls)
     assert root.get_editor_property("bRootModule")
     assert [value.get_path_name() for value in root.get_editor_property("mSchematics")] == [schematic_cls.get_path_name()]
-    assert editor.does_asset_exist(MOD_ROOT + "/x3_lights")
+    assert editor.does_asset_exist(MOD_ROOT + "/X3LightsRedux")
     assert editor.does_asset_exist(MOD_ROOT + "/X3Lights_Icon")
     print("[X3Verify] schematic and root registration verified")
+
+    for directory, build_name, _, _, _, _, _ in EXPECTED:
+        old_path = "/x3_lights/{}/{}.{}_C".format(directory, build_name, build_name)
+        expected_path = "{}/{}/{}.{}_C".format(MOD_ROOT, directory, build_name, build_name)
+        redirected_class = unreal.load_class(None, old_path)
+        assert redirected_class, "Legacy redirect failed for " + old_path
+        assert redirected_class.get_path_name() == expected_path, (old_path, redirected_class.get_path_name())
+    print("[X3Verify] legacy /x3_lights build-class redirects verified")
 
 
 main()

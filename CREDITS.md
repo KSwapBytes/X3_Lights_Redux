@@ -11,11 +11,11 @@ X3-Lights / Cheap Lights was created by [x3008x](https://github.com/Rick86).
 
 [Acxd](https://github.com/Acxd25) ported the mod for Satisfactory Update 5.
 
-## Satisfactory 1.2 Rebuild
+## Redux
 
-The Satisfactory 1.2 rebuild is maintained by [KSwapBytes](https://github.com/KSwapBytes).
+The separately publishable Satisfactory 1.2 Redux release is maintained by [KSwapBytes](https://github.com/KSwapBytes).
 
-- Maintained fork: [KSwapBytes/X3_Lights](https://github.com/KSwapBytes/X3_Lights)
+- Maintained repository: [KSwapBytes/X3_Lights_Redux](https://github.com/KSwapBytes/X3_Lights_Redux)
 
 ## Game Assets
 

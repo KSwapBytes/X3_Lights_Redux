@@ -1,8 +1,8 @@
 import unreal
 
 
-MOD_ROOT = "/x3_lights"
-ICON_SOURCE = r"C:\SatisfactoryModding\Repositories\x3_lights\Resources\Icon128.png"
+MOD_ROOT = "/X3LightsRedux"
+ICON_SOURCE = r"C:\SatisfactoryModding\Repositories\X3LightsRedux\Resources\Icon128.png"
 
 IRON_PLATE = "/Game/FactoryGame/Resource/Parts/IronPlate/Desc_IronPlate"
 IRON_ROD = "/Game/FactoryGame/Resource/Parts/IronRod/Desc_IronRod"
@@ -90,7 +90,7 @@ asset_registry = unreal.AssetRegistryHelpers.get_asset_registry()
 
 
 def log(message):
-    print("[X3Lights] " + str(message))
+    print("[X3LightsRedux] " + str(message))
 
 
 def ensure_dir(path):
@@ -263,7 +263,7 @@ def main():
         ensure_dir(MOD_ROOT + "/" + building["id"])
     asset_registry.scan_paths_synchronous([MOD_ROOT], force_rescan=True)
 
-    game_feature_data = create_data_asset_or_load("x3_lights", MOD_ROOT, unreal.FGGameFeatureData)
+    game_feature_data = create_data_asset_or_load("X3LightsRedux", MOD_ROOT, unreal.FGGameFeatureData)
     configure_game_feature_data(game_feature_data)
     icon = import_icon()
 
@@ -318,7 +318,7 @@ def main():
     )
     schematic_cls = bp_class(MOD_ROOT + "/Unlock_X3Lights_Mk1Schematic")
     schematic_cdo = unreal.get_default_object(schematic_cls)
-    set_text(schematic_cdo, "mDisplayName", "X3-Lights")
+    set_text(schematic_cdo, "mDisplayName", "X3-Lights Redux")
     set_text(schematic_cdo, "mDescription", "Unlocks cheaper, lower-power versions of the vanilla lights.")
     schematic_cdo.set_editor_property("mType", unreal.SchematicType.EST_MILESTONE)
     schematic_cdo.set_editor_property("mTechTier", 2)
@@ -354,8 +354,8 @@ def main():
     schematic_cdo.set_editor_property("mUnlocks", [unlock])
     compile_save(schematic_bp)
 
-    root_bp = create_blueprint_or_load("RootGameWorld_x3_lights", MOD_ROOT, unreal.GameWorldModule)
-    root_cls = bp_class(MOD_ROOT + "/RootGameWorld_x3_lights")
+    root_bp = create_blueprint_or_load("RootGameWorld_X3LightsRedux", MOD_ROOT, unreal.GameWorldModule)
+    root_cls = bp_class(MOD_ROOT + "/RootGameWorld_X3LightsRedux")
     root_cdo = unreal.get_default_object(root_cls)
     root_cdo.set_editor_property("bRootModule", True)
     root_cdo.set_editor_property("mSchematics", [schematic_cls])
