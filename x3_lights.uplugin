@@ -1,26 +1,35 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.1.0",
-	"SemVersion": "1.1.0",
-	"FriendlyName": "X3 Lights",
-	"Description": "Cheaper vanilla lights with lower power consumption and additional power links",
-	"Category": "Modding",
-	"CreatedBy": "x3008x, VoxTenebris",
-	"CreatedByURL": "https://github.com/Rick86/X3_Lights",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "https://ficsit.app/mod/5WvQy4BLqNTu7n",
-	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Plugins": [
-		{
-			"Name": "SML",
-			"SemVersion": "^3.3.0",
-			"bIsOptional": false,
-			"Enabled": true
-		}
-	]
+    "FileVersion": 3,
+    "Version": 0,
+    "VersionName": "1.2.1",
+    "SemVersion": "1.2.1",
+    "GameVersion": ">=491125",
+    "FriendlyName": "X3 Lights",
+    "Description": "Cheaper vanilla-derived lights with lower power consumption and four power links, rebuilt for Satisfactory 1.2.",
+    "Category": "Architecture",
+    "CreatedBy": "x3008x, Acxd; Satisfactory 1.2 rebuild by KSwapBytes",
+    "CreatedByURL": "https://github.com/Rick86",
+    "DocsURL": "https://github.com/KSwapBytes/X3_Lights",
+    "MarketplaceURL": "https://ficsit.app/mod/5WvQy4BLqNTu7n",
+    "SupportURL": "https://github.com/KSwapBytes/X3_Lights/issues",
+    "CanContainContent": true,
+    "IsBetaVersion": false,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "BuiltInInitialFeatureState": "Active",
+    "LocalizationTargets": [
+        {
+            "Name": "x3_lights",
+            "LoadingPolicy": "Always",
+            "ConfigGenerationPolicy": "Never"
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "SML",
+            "Enabled": true,
+            "SemVersion": "^3.12.0"
+        }
+    ],
+    "GameFeature": true
 }

@@ -1,2 +1,6 @@
 /Metadata/
 /Saved/
+/Intermediate/
+/Binaries/
+__pycache__/
+*.py[cod]
